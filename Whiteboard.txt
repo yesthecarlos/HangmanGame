@@ -1,0 +1,29 @@
+* computer generated list of words
+* form for user inputted guess
+* display the letters that are guessed correctly
+* also the letters that are incorrect
+* cannot make duplicate guess
+* 
+
+Game Object
+holds:  
+word to guess
+player's current guess
+player's past guesses
+
+
+Game Controller
+Create Game thisGame = new Game(wordToGuess)
+
+
+
+
+public string CorrectLetter
+public string WrongLetter
+
+
+<form action="/somewhere" method="post">
+  <label for="userLetterGuess">Guess Letter</label>
+  <input id="userLetterGuess" name="userLetterGuess" type="text">
+  <button type="submit">Submit</button>
+</form>
